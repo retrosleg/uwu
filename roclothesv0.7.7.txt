@@ -1,4 +1,4 @@
-﻿--[[	
+--[[	
 
 	/ ＲＯＣＬＯＴＨＥＳ
 	Version - 0.7.7:lerp()
@@ -8,7 +8,7 @@
 	
 	| RoClothes is a Client-Sided Exploiting Script, that allows the player to have nude BodyParts/Clothes
 	Can be used on any executor
-	
+	///////////
 	| This script WILL cause FPS drops, because of BodyParts/Clothes meshes inside the Player model
 	
 	| 𝐔𝐒𝐄 𝐀𝐓 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊
@@ -8608,6 +8608,107 @@ function RoClothes(Player)
 				"Glove"
 			}
 		},
+		["Shark"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(137,136,150),
+				["LeftArmColor3"] = Color3.fromRGB(137,136,150),
+				["RightArmColor3"] = Color3.fromRGB(137,136,150),
+				["LeftLegColor3"] = Color3.fromRGB(137,136,150),
+				["RightLegColor3"] = Color3.fromRGB(137,136,150),
+				["TorsoColor3"] = Color3.fromRGB(137,136,150),
+			},
+			["Accessory"] = {
+				17636708724,
+				17637705854,
+				87626502970496,
+				7331758645,
+				100767426615472,
+				73916913661024,
+				138929493588555
+			},
+			["Clothes"] = {
+				["Shirt"] = 14506308850,
+				["Pants"] = 18782785209,
+			},
+			["TClothes"] = {
+				["Shirt"] = 13713669273,
+				["Pants"] = 13713671950,
+			},
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Tone = "Use NippleColor",
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 1.2,
+				RotationPhysicsMultiply = 3.8,
+				BreastsScale = 0.960,
+				ButtsScale = 0.975,
+				LegsScale = 0.975,
+				BreastsType = 2,
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3,
+				ButtType = 1,
+				HardcoreHP = true,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "5",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(91, 93, 105),
+		},
+					}
+		},
+				["Purple Hair Girl"] = {
+			["Body Color"] = {
+				["HeadColor3"] = Color3.fromRGB(234, 184, 146),
+				["LeftArmColor3"] = Color3.fromRGB(234, 184, 146),
+				["RightArmColor3"] = Color3.fromRGB(234, 184, 146),
+				["LeftLegColor3"] = Color3.fromRGB(234, 184, 146),
+				["RightLegColor3"] = Color3.fromRGB(234, 184, 146),
+				["TorsoColor3"] = Color3.fromRGB(234, 184, 146),
+			},
+			["Accessory"] = {
+				139540455826016,
+				109649673380178,
+				15885750240,
+				13950154377,
+			},
+			["Clothes"] = {
+				["Shirt"] = 6325726547,
+				["Pants"] = 17711925665,
+			},
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
+				"Roblox Pants",
+			},
+			["Preset"] = {
+				Face = false,
+				BodyPartPhysics = true,
+				PhysicsObeyGravity = true,
+				PositionPhysicsMultiply = 0.74,
+				RotationPhysicsMultiply = 2.9,
+				BreastsScale = 0.976,
+				ButtsScale = 0.949,
+				LegsScale = 1,
+				BreastsType = 1,
+				TorsoType = 1,
+				ArmType = 1,
+				LegsType = 1,
+				ButtType = 1,
+				TopHP = 50,
+				BottomHP = 50,
+				DamageSFX = "1",
+				Volume = 1.2,
+			},
+			["NippleColor"] = Color3.fromRGB(91, 93, 105),
+		},
 		-- Clothing Bundles --
 		["Roblox Clothing"] = {
 			["Clothing"] = {
@@ -8701,49 +8802,12 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-				["Purple Hair Girl"] = {
-			["Body Color"] = {
-				["HeadColor3"] = Color3.fromRGB(234, 184, 146),
-				["LeftArmColor3"] = Color3.fromRGB(234, 184, 146),
-				["RightArmColor3"] = Color3.fromRGB(234, 184, 146),
-				["LeftLegColor3"] = Color3.fromRGB(234, 184, 146),
-				["RightLegColor3"] = Color3.fromRGB(234, 184, 146),
-				["TorsoColor3"] = Color3.fromRGB(234, 184, 146),
-			},
-			["Accessory"] = {
-				139540455826016,
-				109649673380178,
-				15885750240,
-				13950154377,
-			},
-			["Clothes"] = {
-				["Shirt"] = 6325726547,
-				["Pants"] = 17711925665,
-			},
+		["Freckles"] = {
 			["Clothing"] = {
-				"Roblox Breasts Clothing",
-				"Roblox Shirt",
-				"Roblox Pants",
+				"Breast Freckles",
+				"Butt Freckles",
 			},
-			["Preset"] = {
-				Face = false,
-				BodyPartPhysics = true,
-				PhysicsObeyGravity = true,
-				PositionPhysicsMultiply = 0.74,
-				RotationPhysicsMultiply = 2.9,
-				BreastsScale = 0.976,
-				ButtsScale = 0.949,
-				LegsScale = 1,
-				BreastsType = 1,
-				TorsoType = 1,
-				ArmType = 1,
-				LegsType = 1,
-				ButtType = 1,
-				TopHP = 50,
-				BottomHP = 50,
-				DamageSFX = "1",
-				Volume = 1.2,
-			},
+			["ClothingBundle"] = true
 		},
 		-- Presets --
 		["[PRESET] Dance Physics"] = {
@@ -17562,4 +17626,4 @@ else
 		RoClothes(game.Players:WaitForChild("lerp()"))
 	end
 end
-return nil
+return nilrn nil
